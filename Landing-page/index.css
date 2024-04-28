@@ -1,0 +1,331 @@
+* {
+    margin: 0%;
+    padding: 0%;
+  
+}
+
+.first{
+    background-color: #d4e4ee;
+    margin-top: -18px;
+}
+
+.container h1{
+    color: #4aaeec;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-left: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: italic;
+}
+
+nav {
+    margin-top: -20px;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px; /* Add padding instead of negative margin */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: #4aaeec;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+nav ul li a:hover {
+    color: #073972;
+}
+
+
+.blue {
+  
+      margin-left: 150px; 
+     color: #4aaeec; /* Blue color */
+     font-size: 55px; /* Font size */
+    margin-top: 20px; /* Adjust margin */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 600;
+  
+}
+
+.black {
+    margin-left: 150px;
+    color: black; /* Black color */
+    font-size: 30px; /* Font size */
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 800
+}
+p {
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-left: 150px;
+}
+
+.explore-btn{
+    margin-left: 150px;
+    padding: 10px 20px;
+    border-color: #c4d5e9;
+    background-color: #7592a5;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    transform: skew(-20deg);
+    cursor: pointer;
+}
+
+.contact-btn{
+    margin-left: 50px;
+    padding: 10px 20px;
+    border-color: #b5bec7;
+    background-color: #7592a5;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    transform: skew(-20deg);
+    cursor: pointer;
+}
+.explore-button:hover,
+.contact-button:hover {
+    opacity: 0.8;
+}
+
+ .build {
+    float: inline-end;
+    max-width: 50%;
+    margin-top: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+ 
+
+.statistics {
+    display: flex;
+    justify-content: space-around; /* Adjust alignment as needed */
+    margin-top: 25px;
+}
+
+.statistics div {
+    text-align: center;
+}
+
+.statistics h1 {
+    font-size: 20px;
+    color: #333;
+    margin: 5px 0;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 20px; /* Add padding for spacing */
+}
+
+.logos img {
+    margin: 0 10px; 
+    max-height: 90px; /* Set max height to prevent oversized logos */
+}
+
+
+.second{
+    padding-top: not20px;
+}
+.office {
+    float: inline-start;
+    height: 40%;
+    max-width: 45%;
+    margin-top: 50px;
+    margin-left: 40px;
+    border-radius: 60%;
+    overflow: hidden;
+}
+.para{
+    margin-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+   
+}
+
+.opt{
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-top: 40px;
+   
+}
+
+
+/* Section styling */
+.people {
+    background-color: #e9e6e6;
+    padding: 50px;
+    text-align: center;
+}
+
+
+.people .head h1 {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+.people .person {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.people .person > div {
+    text-align: center; 
+}
+
+.people .person img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+/* Description */
+.people .person p {
+    margin-left: 5px;
+    width: 100%; 
+    margin-top: 10px;
+    text-align: center; 
+}
+
+
+
+.ceo-message {
+    position: relative; 
+    padding: 50px; 
+    text-align: center; 
+}
+
+/* Background image */
+.ceo-message .background-image {
+    position: absolute; 
+    top: 0;
+    left: 0;
+  
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Move the image below other content */
+}
+
+.ceo-message .background-image img {
+    width: 100%;
+    /* border-radius: 12rem; */
+    height: 110%;
+    filter: blur(2px); /* Apply blur effect */
+    opacity: 0.9; 
+}
+
+
+/* Overlay content */
+.ceo-message .overlay {
+    position: relative; 
+    z-index: 1; 
+}
+
+/* Headings */
+.ceo-message .head h1 {
+    margin-top: 50px;
+    font-size: 36px; 
+    color: #eeeded; 
+    margin-bottom: 20px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CEO message */
+.ceo-message .message p {
+    font-size: 16px; 
+    color: #d3caca; 
+}
+
+
+
+
+.contact {
+    background-color: #f3f8fc;
+    padding: 50px; 
+    text-align: center; 
+}
+
+/* Headings */
+.contact .head h1 {
+    font-size: 36px; 
+    color: #333; 
+    margin-bottom: 20px; 
+}
+
+/* Contact form */
+.contact .contact-form {
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+
+.contact .contact-form input[type="text"],
+.contact .contact-form input[type="email"],
+.contact .contact-form textarea {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 20px; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    box-sizing: border-box; 
+}
+
+.contact .contact-form textarea {
+    height: 150px;
+}
+
+.contact .contact-form button {
+    padding: 10px 20px; 
+    background-color: #4aaeec; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.contact .contact-form button:hover {
+    background-color: #3a8bbb; 
+}
+
+
+
+
+/* Footer styling */
+footer {
+    text-align: center; 
+    padding: 20px 0; 
+    background-color: #f9f9f9; 
+}
+
+/* Text styling */
+footer p {
+    margin: 0; 
+    font-size: 14px; 
+    color: #666; 
+}
